@@ -1,13 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-label="VisionAI system overview">
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#527a96"/></marker></defs>
-<rect width="600" height="360" fill="#fff"/>
-<text x="300" y="49" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#222">VisionAI</text>
-<rect x="116" y="78" width="368" height="52" rx="4" fill="#f1f5f7" stroke="#aabcc8"/>
-<text x="300" y="111" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Camera + voice</text>
-<path d="M300 130V150" stroke="#527a96" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="116" y="155" width="368" height="52" rx="4" fill="#e6f0f7" stroke="#aabcc8"/>
-<text x="300" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Scene analysis</text>
-<path d="M300 207V227" stroke="#527a96" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="116" y="232" width="368" height="52" rx="4" fill="#f1f5f7" stroke="#aabcc8"/>
-<text x="300" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Spoken guidance</text>
-<text x="300" y="329" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#555">Multimodal assistance</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="title desc"><title id="title">Multimodal assistance</title><desc id="desc">Camera frames and speech support scene understanding and spoken guidance</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8" fill="#2774a5"/></marker></defs>
+<rect x="1" y="1" width="718" height="428" rx="8" fill="#fff" stroke="#e0e6ea"/>
+<text x="32" y="41" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#73838e">MULTIMODAL ASSISTANCE</text>
+<rect x="38" y="77" width="215" height="173" rx="5" fill="#f6f9fb" stroke="#9aafbd" stroke-width="2"/>
+<polyline points="55,226 55,170 102,136 136,163 178,111 236,166" fill="none" stroke="#73838e" stroke-width="2" stroke-linejoin="round"/>
+<rect x="155" y="104" width="56" height="100" rx="5" fill="none" stroke="#39877d" stroke-width="2"/>
+<text x="146" y="279" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#73838e">camera frame</text>
+<rect x="50" y="315" width="190" height="45" rx="5" fill="#fff" stroke="#9aafbd" stroke-width="2"/>
+<text x="145.0" y="344.5" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Voice question</text>
+<polyline points="254,170 308,170" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="241,337 280,337 280,234 309,234" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="321" y="124" width="170" height="147" rx="5" fill="#eaf3fa" stroke="#9aafbd" stroke-width="2"/>
+<text x="406" y="176" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#263b4a">Scene</text>
+<text x="406" y="205" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">understanding</text>
+<polyline points="492,197 537,197" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="550" y="151" width="139" height="96" rx="5" fill="#edf5f4" stroke="#9aafbd" stroke-width="2"/>
+<text x="619" y="189" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Spoken</text>
+<text x="619" y="219" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">guidance</text>
+<text x="360" y="403" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#73838e">Visual context + a question → audio assistance</text>
+</svg>

@@ -1,14 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-label="FlexiFlow system overview">
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#527a96"/></marker></defs>
-<rect width="600" height="360" fill="#fff"/>
-<text x="300" y="49" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#222">FlexiFlow</text>
-<rect x="116" y="78" width="368" height="52" rx="4" fill="#f1f5f7" stroke="#aabcc8"/>
-<text x="300" y="111" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Workflow step</text>
-<path d="M300 130V150" stroke="#527a96" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="116" y="155" width="368" height="52" rx="4" fill="#e6f0f7" stroke="#aabcc8"/>
-<text x="300" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Model selection</text>
-<path d="M300 207V227" stroke="#527a96" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="116" y="232" width="368" height="52" rx="4" fill="#f1f5f7" stroke="#aabcc8"/>
-<text x="300" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Quality feedback</text>
-<path d="M484 258H540V104H490" fill="none" stroke="#527a96" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="300" y="329" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#555">Adaptive routing in ML workflows</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="title desc"><title id="title">Adaptive model selection</title><desc id="desc">A routing decision selects a model and consumes quality feedback</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8" fill="#2774a5"/></marker></defs>
+<rect x="1" y="1" width="718" height="428" rx="8" fill="#fff" stroke="#e0e6ea"/>
+<text x="32" y="41" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#73838e">ADAPTIVE MODEL SELECTION</text>
+<rect x="35" y="175" width="125" height="65" rx="5" fill="#fff" stroke="#9aafbd" stroke-width="2"/>
+<text x="97.5" y="214.5" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Input</text>
+<rect x="213" y="152" width="168" height="110" rx="5" fill="#eaf3fa" stroke="#9aafbd" stroke-width="2"/>
+<text x="297.0" y="214.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Router</text>
+<polyline points="160,208 204,208" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="470" y="72" width="203" height="62" rx="5" fill="#f6f9fb" stroke="#9aafbd" stroke-width="2"/>
+<text x="571.5" y="110.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Small model</text>
+<polyline points="382,208 422,208 422,103 461,103" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="470" y="177" width="203" height="62" rx="5" fill="#f6f9fb" stroke="#9aafbd" stroke-width="2"/>
+<text x="571.5" y="215.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Medium model</text>
+<polyline points="382,208 422,208 422,208 461,208" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="470" y="282" width="203" height="62" rx="5" fill="#f6f9fb" stroke="#9aafbd" stroke-width="2"/>
+<text x="571.5" y="320.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Large model</text>
+<polyline points="382,208 422,208 422,313 461,313" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="572,344 572,365 298,365 298,270" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="7 6" marker-end="url(#arrow)"/>
+<text x="305" y="129" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#73838e">choose + update</text>
+<text x="435" y="354" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#39877d">quality / cost feedback</text>
+<text x="360" y="403" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#73838e">Explore alternatives · update from observed rewards</text>
+</svg>

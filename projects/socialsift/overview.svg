@@ -1,13 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-label="SocialSift system overview">
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#527a96"/></marker></defs>
-<rect width="600" height="360" fill="#fff"/>
-<text x="300" y="49" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#222">SocialSift</text>
-<rect x="116" y="78" width="368" height="52" rx="4" fill="#f1f5f7" stroke="#aabcc8"/>
-<text x="300" y="111" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Social posts</text>
-<path d="M300 130V150" stroke="#527a96" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="116" y="155" width="368" height="52" rx="4" fill="#e6f0f7" stroke="#aabcc8"/>
-<text x="300" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Language model</text>
-<path d="M300 207V227" stroke="#527a96" stroke-width="2" marker-end="url(#arrow)"/>
-<rect x="116" y="232" width="368" height="52" rx="4" fill="#f1f5f7" stroke="#aabcc8"/>
-<text x="300" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Sentiment / intent</text>
-<text x="300" y="329" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#555">Multilingual crisis analysis</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="title desc"><title id="title">Multilingual sentiment</title><desc id="desc">Language representations support sentiment and intent analysis</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8" fill="#2774a5"/></marker></defs>
+<rect x="1" y="1" width="718" height="428" rx="8" fill="#fff" stroke="#e0e6ea"/>
+<text x="32" y="41" text-anchor="start" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#73838e">MULTILINGUAL SENTIMENT</text>
+<rect x="34" y="79" width="155" height="56" rx="5" fill="#fff" stroke="#9aafbd" stroke-width="2"/>
+<text x="111.5" y="114.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Language A</text>
+<polyline points="190,107 228,107 228,200 276,200" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="34" y="171" width="155" height="56" rx="5" fill="#fff" stroke="#9aafbd" stroke-width="2"/>
+<text x="111.5" y="206.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Language B</text>
+<polyline points="190,199 228,199 228,200 276,200" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="34" y="263" width="155" height="56" rx="5" fill="#fff" stroke="#9aafbd" stroke-width="2"/>
+<text x="111.5" y="298.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Language C</text>
+<polyline points="190,291 228,291 228,200 276,200" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="288" y="137" width="181" height="126" rx="5" fill="#eaf3fa" stroke="#9aafbd" stroke-width="2"/>
+<text x="378" y="182" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Multilingual</text>
+<text x="378" y="214" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">representation</text>
+<polyline points="470,200 517,200" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="530" y="97" width="148" height="66" rx="5" fill="#f4f8fa" stroke="#9aafbd" stroke-width="2"/>
+<text x="604.0" y="137.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Sentiment</text>
+<circle cx="563" cy="183" r="5" fill="#2774a5"/>
+<circle cx="599" cy="183" r="5" fill="#2774a5"/>
+<circle cx="635" cy="183" r="5" fill="#2774a5"/>
+<rect x="530" y="243" width="148" height="66" rx="5" fill="#f4f8fa" stroke="#9aafbd" stroke-width="2"/>
+<text x="604.0" y="283.0" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#263b4a">Intent</text>
+<circle cx="563" cy="329" r="5" fill="#39877d"/>
+<circle cx="599" cy="329" r="5" fill="#39877d"/>
+<circle cx="635" cy="329" r="5" fill="#39877d"/>
+<polyline points="513,200 513,130 525,130" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="513,200 513,276 525,276" fill="none" stroke="#2774a5" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="360" y="403" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#73838e">Social posts → shared representation → task labels</text>
+</svg>
