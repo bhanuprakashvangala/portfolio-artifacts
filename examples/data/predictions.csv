@@ -1,0 +1,6 @@
+id,group,split,language,true,predicted
+sample1,user1,train,en,positive,positive
+sample2,user2,test,en,positive,positive
+sample3,user3,test,en,negative,positive
+sample4,user4,test,te,positive,positive
+sample5,user5,test,te,negative,negative

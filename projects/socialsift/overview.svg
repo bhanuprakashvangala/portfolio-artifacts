@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-label="SocialSift system overview">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#527a96"/></marker></defs>
+<rect width="600" height="360" fill="#fff"/>
+<text x="300" y="49" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#222">SocialSift</text>
+<rect x="116" y="78" width="368" height="52" rx="4" fill="#f1f5f7" stroke="#aabcc8"/>
+<text x="300" y="111" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Social posts</text>
+<path d="M300 130V150" stroke="#527a96" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="116" y="155" width="368" height="52" rx="4" fill="#e6f0f7" stroke="#aabcc8"/>
+<text x="300" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Language model</text>
+<path d="M300 207V227" stroke="#527a96" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="116" y="232" width="368" height="52" rx="4" fill="#f1f5f7" stroke="#aabcc8"/>
+<text x="300" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" fill="#283f4f">Sentiment / intent</text>
+<text x="300" y="329" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#555">Multilingual crisis analysis</text></svg>
