@@ -12,7 +12,7 @@ Figure retained from the earlier portfolio.
 
 ## Available materials
 
-- [Project report](https://drive.google.com/file/d/1upCswGveonJPN2vmuXzKlhbKqE8tkGSA/view?usp=sharing)
+- [Project report](https://www.researchgate.net/publication/380785737_Brain_Tumor_Detection_in_MRI_Images_using_Transfer_Learning)
 - [Academic portfolio](https://bhanuprakashvangala.github.io/)
 
 ## Runnable companion example

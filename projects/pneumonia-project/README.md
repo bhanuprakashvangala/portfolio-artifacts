@@ -12,8 +12,7 @@ Figure retained from the earlier portfolio.
 
 ## Available materials
 
-- [Project report](https://drive.google.com/file/d/1UJKKHXcFIvtjClUyrr6dhatMKN1svU7C/view?usp=sharing)
-- [Preprint](https://doi.org/10.13140/RG.2.2.27751.36005/1)
+- [Preprint](https://www.researchgate.net/publication/387956500_Pneumonia_Detection_on_X-ray_Images_Using_Deep_Learning)
 - [Academic portfolio](https://bhanuprakashvangala.github.io/)
 
 ## Runnable companion example
