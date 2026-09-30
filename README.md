@@ -10,7 +10,7 @@ Each project has an overview, an image or system diagram, and links to available
 | --- | --- |
 | [Image Colorization using AI](projects/image-colorization) | Documentation + materials |
 | [Multilingual Sentiment Analysis on KOO User Posts](projects/koo) | Companion example |
-| [Deploying LLMs as a Service in Kubernetes HPC Clusters](projects/llm-service-thesis) | Original repository |
+| [LLM-as-a-Service](projects/llm-service-thesis) | Original repository |
 | [Brain Tumor Detection in MRI Images using Transfer Learning](projects/brain-tumor-project) | Companion example |
 | [Pneumonia Detection on X-ray Images Using Deep Learning](projects/pneumonia-project) | Companion example |
 | [LearnLLM.dev](projects/learnllm) | Documentation + materials |
